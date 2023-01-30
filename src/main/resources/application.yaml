@@ -1,0 +1,4 @@
+quarkus:
+  smallrye-openapi:
+    enable: true
+    path: /abcde

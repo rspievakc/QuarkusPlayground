@@ -1,0 +1,16 @@
+pluginManagement {
+    repositories {
+        mavenCentral()
+        gradlePluginPortal()
+        mavenLocal()
+    }
+    plugins {
+        id "${quarkusPluginId}" version "${quarkusPluginVersion}"
+    }
+}
+rootProject.name='HelloWorld'
+include 'shared'
+include 'module-1'
+include 'module-2'
+
+

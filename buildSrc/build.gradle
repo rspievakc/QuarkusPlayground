@@ -1,0 +1,12 @@
+plugins {
+    id 'groovy-gradle-plugin'
+}
+
+repositories {
+    mavenLocal()
+    jcenter()
+    mavenCentral()
+    maven {
+        url "https://plugins.gradle.org/m2/"
+    }
+}
